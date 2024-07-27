@@ -1,17 +1,17 @@
 <class_libraries>
   <library path="lib/librosneuro_windows_flattop">
     <class name="rosneuro_windows/FlattopWindowDouble" type="rosneuro::Flattop<double>"
-        base_class_type="rosneuro::Filter<double>">
+        base_class_type="rosneuro::Window<double>">
       <description>Flattop filter with doubles</description>
     </class>
     
     <class name="rosneuro_windows/FlattopWindowFloat" type="rosneuro::Flattop<float>"
-        base_class_type="rosneuro::Filter<float>">
+        base_class_type="rosneuro::Window<float>">
       <description>Flattop filter with floats</description>
     </class>
     
     <class name="rosneuro_windows/FlattopFilterInt" type="rosneuro::Flattop<int>"
-        base_class_type="rosneuro::Filter<int>">
+        base_class_type="rosneuro::Window<int>">
       <description>Flattop filter with ints</description>
     </class>
   </library>
